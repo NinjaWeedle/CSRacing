@@ -16,16 +16,20 @@ List Car:
 2: Max RPM
 3: Best launch RPM
 4: Best shift rpm
-5: Max MPH allowed in gear 1
-6: Max MPH allowed in gear 2
-7: Max MPH allowed in gear 3
-8: Max MPH allowed in gear 4
-9: Max MPH allowed in gear 5
-10: Max MPH allowed in gear 6
-11: Acceleration level (maximum pixels moved per cycle)
+5: Number of Gears
+6: Max MPH allowed in gear 1
+7: Max MPH allowed in gear 2
+8: Max MPH allowed in gear 3
+9: Max MPH allowed in gear 4
+10: Max MPH allowed in gear 5
+11: Max MPH allowed in gear 6
+12: Acceleration level (maximum pixels moved per cycle)
 
 
 VARIABLES:
+A = temp var. 1
+B = temp var. 2
+C = temp var. 3
 D = Difficulty (affects opponent's speed_
 G = Gear
 K = Key pressed
