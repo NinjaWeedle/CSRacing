@@ -1,0 +1,39 @@
+Calculator Street Racing DEVELOPER'S DOCUMENTATION
+
+List CSR:
+1: Amount of Cr.
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+
+List Car:
+1: Car Identifier Number
+2: Max RPM
+3: Best launch RPM
+4: Max MPH allowed in gear 1
+5: Max MPH allowed in gear 2
+6: Max MPH allowed in gear 3
+7: Max MPH allowed in gear 4
+8: Max MPH allowed in gear 5
+9: Max MPH allowed in gear 6
+10: Acceleration level (maximum pixels moved per cycle)
+
+VARIABLES:
+D = Difficulty (affects opponent's speed_
+G = Gear
+K = Key pressed
+O = Opponent Car position
+P = Player Car position
+R = RPM (x1000)
+S = Speed
+T = Race time
+W = Event type
+Z = Countdown
+
+CAR LIST:
+1: Civic Si Coupe (8th Gen)
