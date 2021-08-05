@@ -24,6 +24,10 @@ List Car:
 10: Max MPH allowed in gear 5
 11: Max MPH allowed in gear 6
 12: Acceleration level (maximum pixels moved per cycle)
+13:
+14:
+15:
+
 
 
 VARIABLES:
@@ -42,4 +46,5 @@ W = Event type
 Z = Countdown
 
 CAR LIST:
-1: Civic Si Coupe (8th Gen)
+1: Civic Si Coupe (8th Gen, 2010)
+2: VW New Beetle (2004)
