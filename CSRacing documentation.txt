@@ -1,15 +1,46 @@
 Calculator Street Racing DEVELOPER'S DOCUMENTATION
 
+STRINGS USED:
+Str1: Car name
+Str2: Title Screen
+
+
 List CSR:
 1: Amount of Cr.
-2:
+2: Current stage in Ladder races
 3:
 4:
 5:
-6:
-7:
-8:
+6:Civic Si (2010) owned? (1=owned, 0=not owned)
+7: Oxiti Incerceba (2016) owned?
+8: VW New Beetle (2004) owned?
 9:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30:
+31:
+32:
+33:
+34:
+35:
 
 List Car:
 1: Car Identifier Number
@@ -23,8 +54,8 @@ List Car:
 9: Max MPH allowed in gear 4
 10: Max MPH allowed in gear 5
 11: Max MPH allowed in gear 6
-12: Acceleration level (maximum pixels moved per cycle)
-13:
+12: Acceleration level (maximum increase in pixels moved per cycle)
+13: Amount of rpm (x1000) lost per cycle wh
 14:
 15:
 
@@ -35,6 +66,7 @@ A = temp var. 1
 B = temp var. 2
 C = temp var. 3
 D = Difficulty (affects opponent's speed_
+F = Temp var. 4
 G = Gear
 K = Key pressed
 O = Opponent Car position
@@ -45,6 +77,35 @@ T = Race time
 W = Event type
 Z = Countdown
 
-CAR LIST:
+CAR LIST (by car identifier number):
 1: Civic Si Coupe (8th Gen, 2010)
-2: VW New Beetle (2004)
+2: Oxiti Incerceba (2016) [FANTASY]
+3: VW New Beetle (2004)
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30: 
+31*: Identifies custom cars
