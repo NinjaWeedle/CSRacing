@@ -66,6 +66,7 @@ A = temp var. 1
 B = temp var. 2
 C = temp var. 3
 D = Difficulty (affects opponent's speed_
+E = Rev loss rate per cycle
 F = Temp var. 4
 G = Gear
 K = Key pressed
