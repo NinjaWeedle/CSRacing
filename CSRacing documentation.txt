@@ -2,7 +2,7 @@ Calculator Street Racing DEVELOPER'S DOCUMENTATION
 
 STRINGS USED:
 Str1: Car name
-Str2: Title Screen
+Str0: Title Screen
 
 
 List CSR:
@@ -55,8 +55,8 @@ List Car:
 10: Max MPH allowed in gear 5
 11: Max MPH allowed in gear 6
 12: Acceleration level (maximum increase in pixels moved per cycle)
-13: Amount of rpm (x1000) lost per cycle wh
-14:
+13: Amount of rpm (x1000) lost per cycle while revving
+14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level 
 15:
 
 
@@ -65,10 +65,11 @@ VARIABLES:
 A = temp var. 1
 B = temp var. 2
 C = temp var. 3
-D = Difficulty (affects opponent's speed_
+D = Difficulty (affects opponent's speed directly in Regulation races)
 E = Rev loss rate per cycle
 F = Temp var. 4
 G = Gear
+H = Reduction in speed gained in gears above first gear
 K = Key pressed
 O = Opponent Car position
 P = Player Car position
