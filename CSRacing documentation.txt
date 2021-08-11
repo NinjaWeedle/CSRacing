@@ -14,7 +14,7 @@ List CSR:
 6:Civic Si (2010) owned? (1=owned, 0=not owned)
 7: Oxiti Incerceba (2016) owned?
 8: VW New Beetle (2004) owned?
-9:
+9: 
 10:
 11:
 12:
@@ -57,9 +57,8 @@ List Car:
 12: Acceleration level (maximum increase in pixels moved per cycle)
 13: Amount of rpm (x1000) lost per cycle while revving
 14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level 
-15:
-
-
+15: Car color (AFFECTS CE ONLY)
+16: Car Tier
 
 VARIABLES:
 A = temp var. 1
@@ -80,12 +79,12 @@ W = Event type
 Z = Countdown
 
 CAR LIST (by car identifier number):
-1: Civic Si Coupe (8th Gen, 2010)
-2: Oxiti Incerceba (2016) [FANTASY]
+1*: Honda Civic Si Coupe (8th Gen, 2010)
+2*: Oxiti Increceba (2016) [FANTASY] 
 3: VW New Beetle (2004)
-4:
-5:
-6:
+4: VW Golf GTI (2005)
+5: Ferrari 458 Italia (2011)
+6: Chevrolet Corvette ZR1 (2009)
 7:
 8:
 9:
@@ -110,4 +109,5 @@ CAR LIST (by car identifier number):
 28:
 29:
 30: 
-31*: Identifies custom cars
+31: Identifies custom cars
+*Not purchasable at dealer
