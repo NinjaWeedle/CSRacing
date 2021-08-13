@@ -75,6 +75,7 @@ P = Player Car position
 R = RPM (x1000)
 S = Speed
 T = Race time
+U = Upgrade status
 W = Event type
 Z = Countdown
 
