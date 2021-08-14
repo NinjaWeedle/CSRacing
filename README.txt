@@ -4,7 +4,7 @@
 |          \  |   \
 |_____  ___/  |    \
 
-CALCULATOR STREET RACING V0.2
+CALCULATOR STREET RACING V0.3
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84+.
 

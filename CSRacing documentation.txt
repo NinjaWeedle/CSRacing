@@ -2,7 +2,7 @@ Calculator Street Racing DEVELOPER'S DOCUMENTATION
 
 STRINGS USED:
 Str1: Car name
-Str0: Title Screen
+Str0: Title Screen, temporary strings
 
 
 List CSR:
@@ -11,16 +11,16 @@ List CSR:
 3:
 4:
 5:
-6:Civic Si (2010) owned? (1=owned, 0=not owned)
-7: Oxiti Incerceba (2016) owned?
+6:Civic Si (2010) owned? (1 or above=owned, 0=not owned)
+7: Oxiti Increceba (2016) owned?
 8: VW New Beetle (2004) owned?
-9: 
-10:
-11:
-12:
-13:
-14:
-15:
+9: VW Golf GTI (2005) owned?
+10: Ferrari 458 Italia (2011) owned?
+11: Chevrolet Corvette ZR1 (2009) owned?
+12: CAR 7
+13: CAR 8
+14: CAR 9
+15: CAR 10
 16:
 17:
 18:
@@ -57,7 +57,7 @@ List Car:
 12: Acceleration level (maximum increase in pixels moved per cycle)
 13: Amount of rpm (x1000) lost per cycle while revving
 14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level 
-15: Car color (AFFECTS CE ONLY)
+15: Car color (AFFECTS CE ONL Y)
 16: Car Tier
 
 VARIABLES:
@@ -86,10 +86,10 @@ CAR LIST (by car identifier number):
 4: VW Golf GTI (2005)
 5: Ferrari 458 Italia (2011)
 6: Chevrolet Corvette ZR1 (2009)
-7:
-8:
-9:
-10:
+7: CAR 7
+8: CAR 8
+9: CAR 9
+10: CAR 10
 11:
 12:
 13:
