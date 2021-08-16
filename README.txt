@@ -1,10 +1,10 @@
- _____   ___   ___
-|       /     |   |
-|       \__   |___|
-|          \  |   \
-|_____  ___/  |    \
+ _____   ___   ____
+|       /     |    |
+|       \__   |____|
+|          \  |    \
+|_____  ___/  |     \
 
-CALCULATOR STREET RACING V0.3
+CALCULATOR STREET RACING V0.4
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84+.
 
@@ -41,8 +41,8 @@ Racing controls: Press 2ND to rev your engine. Press the up arrow key to shift u
 
 Upon selecting the "RACE" option in the main menu, You will be presented the event list that shows the different kinds of races you can enter.
 Each mode has its own rules:
- - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (reccomended range is 1-8), the better the rewards. A maximum difficulty of 2 is reccomended for the stock Civic Si.
- - Ladder:
+ - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (reccomended range is 10-40), the better the rewards.
+ - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder
  - Crew Battle:
  - Restriction:
 
