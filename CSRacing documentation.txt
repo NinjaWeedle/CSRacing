@@ -18,7 +18,7 @@ List CSR:
 10: Ferrari 458 Italia (2011) owned?
 11: Chevrolet Corvette ZR1 (2009) owned?
 12: Ferrari Dino 246 GT owned?
-13: CAR 8
+13: CR-X SI-R (1991) owned?
 14: CAR 9
 15: CAR 10
 16:
@@ -57,7 +57,7 @@ List Car:
 12: Acceleration level (maximum increase in pixels moved per cycle)
 13: Amount of rpm (x1000) lost per cycle while revving
 14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level 
-15: Car color (AFFECTS CE ONLY)
+15: Car color (AFFECTS CE ONLY) (10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray)
 16: Car Tier
 
 VARIABLES:
@@ -88,7 +88,7 @@ CAR LIST (by car identifier number):
 5: Ferrari 458 Italia (2011) - Available Supercar Saturdays
 6: Chevrolet Corvette ZR1 (2009) - Available Supercar Saturdays
 7: Ferrari Dino 246 GT - Available Sunday Drive Sundays (Classic cars)
-8: CAR 8
+8: CR-X SI-R (1991) - Available FWD Fridays 
 9: CAR 9
 10: CAR 10
 11:
