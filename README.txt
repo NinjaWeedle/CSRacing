@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \
 
-CALCULATOR STREET RACING V0.5
+CALCULATOR STREET RACING V0.6
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -44,8 +44,9 @@ Upon selecting the "RACE" option in the main menu, you will be presented the eve
 Each mode has its own rules:
  - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (recommended range is 10-40), the better the rewards.
  - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
- - Crew Battle:
- - Restriction:
+ - Crew Battle: 
+ - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beat all 30 challenges, and Custom cars will be FREE to create. 
+ - Link Battle: Go head-to-head with another CSRacing player!
 
 
 4. CSR GARAGE
@@ -68,18 +69,20 @@ Upon starting CSR Garage, you have two options to choose from:
 
  - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
  - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, will work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83+ users will only be able to use the Sivic Si as a result.
- - THe cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent.)
+ - The cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent.)
 
 
 7. CAR LIST (by car identifier number):
-1*: Sivic Si Coupe (2010)
-2*: Oxiti ????????? - Beat the crew battle mode to unlock!
-3: Beetle (2004) - Available Mondays
-4: Golf GIT (2005) - Available Front wheel drive Fridays
-5: 458 Italy (2011) - Available Supercar Saturdays
-6: 'Vette ZR1 (2009) - Available Supercar Saturdays
-7: Dino 256 GT - Available Sunday Drive Sundays (Classic cars)
-8: CRX SIR (1991) - Available FWD Fridays 
 
+1*: Sivic Si Coupe (2010) - The starter car. - Tier 1
+2*: Oxiti Increceba - Beat the crew battle mode to unlock! - Tier 4
+3: Beetle (2004) - Available Economy Car Mondays - Tier 1
+4: Golf GIT (2005) - Available FWD Fridays - Tier 1
+5: 458 Italy (2011) - Available Supercar Saturdays - Tier 3
+6: 'Vette ZR1 (2009) - Available Supercar Saturdays - Tier 3
+7: Dino 256 GT - Available Sunday Drive Sundays (Classic cars) - Tier 1
+8: CRX SIR (1991) - Available FWD Fridays - Tier 2
+9: McL F1 (1993) - Availiable Supercar Saturdays - Tier 3
+10: Impala SS (1969) - Available Sunday Drive Sundays - Tier 1
 
 2021 Game by Oxiti8

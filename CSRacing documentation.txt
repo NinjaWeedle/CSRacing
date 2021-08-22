@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.6
 
 STRINGS USED:
 Str1: Car name
@@ -8,19 +8,19 @@ Str0: Title Screen, temporary strings
 List CSR:
 1: Amount of Cr.
 2: Current stage in Ladder races
-3:
-4:
+3: Current stage in Car Specific Races
+4: Current stage in Crew Battle
 5:
-6:Civic Si (2010) owned? (1 or above=owned, 0=not owned)
+6: Civic Si (2010) owned? (1 or above=owned, 0=not owned)
 7: Oxiti Increceba (2016) owned?
 8: VW New Beetle (2004) owned?
 9: VW Golf GTI (2005) owned?
 10: Ferrari 458 Italia (2011) owned?
 11: Chevrolet Corvette ZR1 (2009) owned?
 12: Ferrari Dino 246 GT owned?
-13: CR-X SI-R (1991) owned?
-14: CAR 9
-15: CAR 10
+13: Honda CR-X SI-R (1991) owned?
+14: McLaren F1 (1993) owned?
+15: Chevrolet Impala Super Sport 409 (1964) owned?
 16:
 17:
 18:
@@ -80,17 +80,24 @@ V = Top Speed
 W = Event type
 Z = Countdown
 
+EVENT TYPES:
+Regulation races: W=1
+Ladder races: W=2
+Link Battle: W=3
+Car specific (Was restriction races): W=4
+Crew Battle: W=5
+
 CAR LIST (by car identifier number):
-1*: Honda Civic Si Coupe (8th Gen, 2010)
-2*: Oxiti Increceba (2016) [FANTASY] 
-3: VW New Beetle (2004) - Available Monday
-4: VW Golf GTI (2005) - Available Front wheel drive Fridays
-5: Ferrari 458 Italia (2011) - Available Supercar Saturdays
-6: Chevrolet Corvette ZR1 (2009) - Available Supercar Saturdays
-7: Ferrari Dino 246 GT - Available Sunday Drive Sundays (Classic cars)
-8: CR-X SI-R (1991) - Available FWD Fridays 
-9: CAR 9
-10: CAR 10
+1*: Honda Civic Si Coupe (8th Gen, 2010) T1
+2*: Oxiti Increceba (2016) [FANTASY] T4
+3: VW New Beetle (2004) - Available Monday T1
+4: VW Golf GTI (2005) - Available Front wheel drive Fridays T1
+5: Ferrari 458 Italia (2011) - Available Supercar Saturdays T3
+6: Chevrolet Corvette ZR1 (2009) - Available Supercar Saturdays T3
+7: Ferrari Dino 246 GT - Available Sunday Drive Sundays (Classic cars) T1
+8: CR-X SI-R (1991) - Available FWD Fridays T2
+9: McLaren F1 (1993) - Available Supercar Saturdays T3
+10: Chevrolet Impala Super Sport 409 (1964) - Available Sunday Drive Sundays T1
 11:
 12:
 13:
