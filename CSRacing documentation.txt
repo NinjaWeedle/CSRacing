@@ -2,6 +2,7 @@ Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.6
 
 STRINGS USED:
 Str1: Car name
+Str2: Opponent name
 Str0: Title Screen, temporary strings
 
 
@@ -10,7 +11,7 @@ List CSR:
 2: Current stage in Ladder races
 3: Current stage in Car Specific Races
 4: Current stage in Crew Battle
-5:
+5: Number of discounts on Oxiti Car Co. development cost (Initial cost is 100,000 Cr. per car, each Car Specific race beaten brings the price down by 3,000 Cr. Beating all the Car specific races puts the price at a modest 10,000 Cr.
 6: Civic Si (2010) owned? (1 or above=owned, 0=not owned)
 7: Oxiti Increceba (2016) owned?
 8: VW New Beetle (2004) owned?
@@ -41,6 +42,7 @@ List CSR:
 33:
 34:
 35:
+36: Custom Car
 
 List Car:
 1: Car Identifier Number
@@ -64,11 +66,13 @@ VARIABLES:
 A = temp var. 1
 B = temp var. 2
 C = temp var. 3
-D = Difficulty (affects opponent's speed directly in Regulation races)
+D = Difficulty (affects opponent's speed directly in Regulation and Ladder races, just affects their launch speed in Car SPecific and Crew Battle)
 E = Rev loss rate per cycle
 F = Temp var. 4
 G = Gear
 H = Reduction in speed gained in gears above first gear
+I = Multiplayer player identifier
+J = Opponent Acceleration level (Only affects Car Specific and Crew Battle)
 K = Key pressed
 O = Opponent Car position
 P = Player Car position
@@ -83,8 +87,8 @@ Z = Countdown
 EVENT TYPES:
 Regulation races: W=1
 Ladder races: W=2
-Link Battle: W=3
-Car specific (Was restriction races): W=4
+Car specific (Was restriction races): W=3
+Link Battle: W=4
 Crew Battle: W=5
 
 CAR LIST (by car identifier number):
@@ -120,3 +124,17 @@ CAR LIST (by car identifier number):
 30: 
 31: Identifies custom cars
 *Not purchasable at dealer
+
+CREW MEMBERS/LEADERS (Listed in the order that they appear:
+
+Tier 1 firt opponent: Ito
+Tier 1 second opponent: Steve O
+Tier 1 leader: Winnace
+
+Tier 2 first opponent: Ker
+Tier 2 second opponent: Mayeo Cree
+Tier 2 leader: Kenido Cree
+
+Tier 3 First opponent: Tom
+Tier 3 second opponent: Muncher
+Tier 3 leader: IT'S A SECRET TO EVERYONE.

@@ -8,6 +8,11 @@ CALCULATOR STREET RACING V0.6
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
+Collect, Race and Upgrade 30 different cars, or work with a manufacturer to create your very own car from the ground up. 
+Compete in 5 event types- Climb the rankings in officially-sanctioned Ladder races, assert your racing prowess against CSR's best racers in the challenging Crew Battle mode,
+challenge a friend in the 2-player action of Link Battle mode, demonstrate true mastery of your car in Car Specific races, or just make some quick cash in Regulation races.
+Can you conquer the drag strip?
+
 Github: https://github.com/NinjaWeedle/CSRacing
 Cemetech topic: https://www.cemetech.net/forum/viewtopic.php?t=17903
 _________________________________________________________
@@ -45,7 +50,7 @@ Each mode has its own rules:
  - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (recommended range is 10-40), the better the rewards.
  - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
  - Crew Battle: 
- - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beat all 30 challenges, and Custom cars will be FREE to create. 
+ - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beating these races drops the price of creating a custom car. 
  - Link Battle: Go head-to-head with another CSRacing player!
 
 
@@ -60,6 +65,7 @@ Upon starting CSR Garage, you have two options to choose from:
 5. TIPS & TRICKS
 
  - Good launches will earn you an extra 5 Cr, and Perfect launches will net you 10 extra Cr.
+ - The  key to the best shifts is to shift up the same frame the max speed in the current gear is reached- nailing the timing will let you constantly accelerate.
  - Upgrades offer a noticeable performance boost, but buying faster cars is eventually necessary to stay competitive.
  - Regulation races are a great way to earn Cr. - Just make sure to keep the difficulty at a level you can handle.
  - There are (planned to be, the game is not done yet) 30 cars in total- can you collect them all?
@@ -85,4 +91,4 @@ Upon starting CSR Garage, you have two options to choose from:
 9: McL F1 (1993) - Availiable Supercar Saturdays - Tier 3
 10: Impala SS (1969) - Available Sunday Drive Sundays - Tier 1
 
-2021 Game by Oxiti8
+2021 Game by Oxiti8 8/26/2021
