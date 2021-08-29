@@ -1,7 +1,7 @@
 # CSRacing
 Calculator Street Racing, a drag racing game for the TI-84+ graphing calculator.
 
-Only regulation races are currently playable. 
+Regulation, Ladder, and Crew Battles are currently playable. 
 
 Controls: Navigating the main menu is simple - press one of the top five buttons (Y=, WINDOW, ZOOM, TRACE, or GRAPH) to select an option.
  - Press GRAPH to select "RACE" and access the event list.
