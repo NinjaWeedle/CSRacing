@@ -2,16 +2,16 @@
 |       /     |    |
 |       \__   |____|
 |          \  |    \
-|_____  ___/  |     \
+|_____  ___/  |     \ACING
 
-CALCULATOR STREET RACING V0.6
+CALCULATOR STREET RACING V0.7
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
 Collect, Race and Upgrade 30 different cars, or work with a manufacturer to create your very own car from the ground up. 
 Compete in 5 event types- Climb the rankings in officially-sanctioned Ladder races, assert your racing prowess against CSR's best racers in the challenging Crew Battle mode,
 challenge a friend in the 2-player action of Link Battle mode, demonstrate true mastery of your car in Car Specific races, or just make some quick cash in Regulation races.
-Can you conquer the drag strip?
+The game's shell compatible, too. Can you conquer the drag strip?
 
 Github: https://github.com/NinjaWeedle/CSRacing
 Cemetech topic: https://www.cemetech.net/forum/viewtopic.php?t=17903
@@ -49,7 +49,7 @@ Upon selecting the "RACE" option in the main menu, you will be presented the eve
 Each mode has its own rules:
  - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (recommended range is 10-40), the better the rewards.
  - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
- - Crew Battle: 
+ - Crew Battle: Battle against 
  - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beating these races drops the price of creating a custom car. 
  - Link Battle: Go head-to-head with another CSRacing player!
 
@@ -58,7 +58,7 @@ Each mode has its own rules:
 
 Upon starting CSR Garage, you have two options to choose from:
  - Change Car: Self explanatory. Selecting this option lets you swap your car with others you own.
- - Car Dealer: Buy cars here. 4 cars are available for purchase each day, with a total of 28 cars available for purchase.
+ - Car Dealer: Buy cars here. 4 cars are available for purchase each day, with a total of 28 cars available for purchase. 
    - Once you purchase a car, you can get in it from the Change Car menu.
 
 
@@ -90,5 +90,7 @@ Upon starting CSR Garage, you have two options to choose from:
 8: CRX SIR (1991) - Available FWD Fridays - Tier 2
 9: McL F1 (1993) - Availiable Supercar Saturdays - Tier 3
 10: Impala SS (1969) - Available Sunday Drive Sundays - Tier 1
+11: Viper (2013) - Avaliable Supercar Saturdays T3
+12: Javelin-AMS (1971) - Availiable 
 
 2021 Game by Oxiti8 8/26/2021

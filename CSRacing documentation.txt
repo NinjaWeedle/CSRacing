@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.6
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.7
 
 STRINGS USED:
 Str1: Car name
@@ -22,8 +22,8 @@ List CSR:
 13: Honda CR-X SI-R (1991) owned?
 14: McLaren F1 (1993) owned?
 15: Chevrolet Impala Super Sport 409 (1964) owned?
-16:
-17:
+16: SRT Viper (2013) owned?
+17: AMC Javelin-AMX (1971) owned?
 18:
 19:
 20:
@@ -58,7 +58,7 @@ List Car:
 11: Max MPH allowed in gear 6
 12: Acceleration level (maximum increase in pixels moved per cycle)
 13: Amount of rpm (x1000) lost per cycle while revving
-14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level 
+14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level)
 15: Car color (AFFECTS CE ONLY) (10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray)
 16: Car Tier
 
@@ -102,8 +102,8 @@ CAR LIST (by car identifier number):
 8: CR-X SI-R (1991) - Available FWD Fridays T2
 9: McLaren F1 (1993) - Available Supercar Saturdays T3
 10: Chevrolet Impala Super Sport 409 (1964) - Available Sunday Drive Sundays T1
-11:
-12:
+11: SRT Viper (2013) - Avaliable Supercar Saturdays T3
+12: AMC Javelin-AMX (1971) - Avaliable Sunday Drive Sundays T1
 13:
 14:
 15:
@@ -125,8 +125,9 @@ CAR LIST (by car identifier number):
 31: Identifies custom cars
 *Not purchasable at dealer
 
-CREW MEMBERS/LEADERS (Listed in the order that they appear:
+CREW MEMBERS/LEADERS (Listed in the order that they appear):
 
+Tier 1 - The Flames
 Tier 1 firt opponent: Ito
 Tier 1 second opponent: Steve O
 Tier 1 leader: Winnace
@@ -135,6 +136,7 @@ Tier 2 first opponent: Ker
 Tier 2 second opponent: Mayeo Cree
 Tier 2 leader: Kenido Cree
 
-Tier 3 First opponent: Tom
+Tier 3 - Team Oxiti
+Tier 3 First opponent: Goomzo
 Tier 3 second opponent: Muncher
 Tier 3 leader: IT'S A SECRET TO EVERYONE.
