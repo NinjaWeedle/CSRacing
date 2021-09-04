@@ -3,6 +3,7 @@ Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.7
 STRINGS USED:
 Str1: Car name
 Str2: Opponent name
+Str3: Crew Leader trash talk
 Str0: Title Screen, temporary strings
 
 
@@ -24,8 +25,8 @@ List CSR:
 15: Chevrolet Impala Super Sport 409 (1964) owned?
 16: SRT Viper (2013) owned?
 17: AMC Javelin-AMX (1971) owned?
-18:
-19:
+18: Mazda RX-7 Type RS (1998) owned?
+19: Audi RS 6 (2003) owned?
 20:
 21:
 22:
@@ -44,7 +45,7 @@ List CSR:
 35:
 36: Custom Car
 
-List Car:
+List CAR:
 1: Car Identifier Number
 2: Max RPM
 3: Best launch RPM
@@ -61,6 +62,15 @@ List Car:
 14: Reduction in speed gained in gears above first gear (1.1 - (LCAR(14)* Current Gear) * Acceleration level)
 15: Car color (AFFECTS CE ONLY) (10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray)
 16: Car Tier
+
+List CBR:
+1: Launch speed for car challenge 1
+2: Accelleration level for car challenge 1
+1: Launch speed for car challenge 2
+2: Accelleration level for car challenge 2
+...etc...this repeats until all 30 cars have their own challenges...
+59: Launch speed for car challenge 30
+60: Accelleration level for car challenge 30
 
 VARIABLES:
 A = temp var. 1
@@ -103,9 +113,9 @@ CAR LIST (by car identifier number):
 9: McLaren F1 (1993) - Available Supercar Saturdays T3
 10: Chevrolet Impala Super Sport 409 (1964) - Available Sunday Drive Sundays T1
 11: SRT Viper (2013) - Avaliable Supercar Saturdays T3
-12: AMC Javelin-AMX (1971) - Avaliable Sunday Drive Sundays T1
-13:
-14:
+12: AMC Javelin-AMX (1971) - Available Sunday Drive Sundays T1
+13: Mazda RX-7 Type RS (1998) - Available Tuner Thursdays T2
+14: Audi RS 6 (2003) - Available AWD Wednesdays T2
 15:
 16:
 17:
@@ -127,16 +137,20 @@ CAR LIST (by car identifier number):
 
 CREW MEMBERS/LEADERS (Listed in the order that they appear):
 
-Tier 1 - The Flames
-Tier 1 firt opponent: Ito
-Tier 1 second opponent: Steve O
-Tier 1 leader: Winnace
+- Tier 1 - The Flames
+This crew is the first you'll meet.
+  Tier 1 first opponent: Ito - Drives a Beetle '04
+  Tier 1 second opponent: Steve O - Drives an Impala SS
+  Tier 1 leader: Winnace - Drives a Javelin-AMS
 
-Tier 2 first opponent: Ker
-Tier 2 second opponent: Mayeo Cree
-Tier 2 leader: Kenido Cree
+- Tier 2 - The Tuners
+This crew loves to modify their cars.
+  Tier 2 first opponent: Ker
+  Tier 2 second opponent: Mayeo
+  Tier 2 leader: Kenido
 
-Tier 3 - Team Oxiti
-Tier 3 First opponent: Goomzo
-Tier 3 second opponent: Muncher
-Tier 3 leader: IT'S A SECRET TO EVERYONE.
+- Tier 3 - Team Oxiti
+This final crew seems to be short a member. 
+  Tier 3 First opponent: Goomzo
+  Tier 3 second opponent: Muncher
+  Tier 3 leader: IT'S A SECRET TO EVERYONE.

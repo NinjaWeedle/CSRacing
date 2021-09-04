@@ -9,7 +9,7 @@ CALCULATOR STREET RACING V0.7
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
 Collect, Race and Upgrade 30 different cars, or work with a manufacturer to create your very own car from the ground up. 
-Compete in 5 event types- Climb the rankings in officially-sanctioned Ladder races, assert your racing prowess against CSR's best racers in the challenging Crew Battle mode,
+Compete in 5 event types- Climb the rankings in officially sanctioned Ladder races, assert your racing prowess against CSR's best racers in the challenging Crew Battle mode,
 challenge a friend in the 2-player action of Link Battle mode, demonstrate true mastery of your car in Car Specific races, or just make some quick cash in Regulation races.
 The game's shell compatible, too. Can you conquer the drag strip?
 
@@ -22,8 +22,9 @@ Table of contents:
 3: Game modes
 4: CSR Garage
 5: Tips & Tricks
-6: Developer's Notes & Technicalities
+6: The 3 Crews
 7: Car List
+8: Developer's Notes & Technicalities
 _________________________________________________________
 
 1. HOW TO INSTALL:
@@ -49,7 +50,7 @@ Upon selecting the "RACE" option in the main menu, you will be presented the eve
 Each mode has its own rules:
  - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (recommended range is 10-40), the better the rewards.
  - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
- - Crew Battle: Battle against 
+ - Crew Battle: Take on the best drivers CSRacing has to offer. There are three crews to beat, with each crew having 3 members. Crews will only race you if you use a car from their respective tier, so you'll need to save up your Cr. to buy cars- but the rewards are worth it.
  - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beating these races drops the price of creating a custom car. 
  - Link Battle: Go head-to-head with another CSRacing player!
 
@@ -65,32 +66,59 @@ Upon starting CSR Garage, you have two options to choose from:
 5. TIPS & TRICKS
 
  - Good launches will earn you an extra 5 Cr, and Perfect launches will net you 10 extra Cr.
- - The  key to the best shifts is to shift up the same frame the max speed in the current gear is reached- nailing the timing will let you constantly accelerate.
+ - The key to the best shifts is to shift up the same frame the max speed in the current gear is reached- nailing the timing will let you constantly accelerate.
  - Upgrades offer a noticeable performance boost, but buying faster cars is eventually necessary to stay competitive.
  - Regulation races are a great way to earn Cr. - Just make sure to keep the difficulty at a level you can handle.
  - There are (planned to be, the game is not done yet) 30 cars in total- can you collect them all?
 
 
-6. DEVELOPER'S NOTES & TECHNICALITIES:
+6. THE THREE CREWS
 
- - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
- - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, will work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83+ users will only be able to use the Sivic Si as a result.
- - The cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent.)
+In the Crew Battle mode, you'll have to race the three unique crew members of each crew in order to progress to the next tier. 
+The third and final member of each crew is the crew leader- You'll have to beat Leaders three times to get them to concede.
+
+- Tier 1 - The Flames
+This crew is the first you'll meet.
+  Tier 1 first opponent: Ito - Drives a Beetle '04
+  Tier 1 second opponent: Steve O - Drives an Impala SS
+  Tier 1 leader: Winnace - Drives a Javelin-AMS
+
+- Tier 2 - The Tuners
+This crew loves to modify their cars.
+  Tier 2 first opponent: Ker
+  Tier 2 second opponent: Mayeo
+  Tier 2 leader: Kenido
+
+- Tier 3 - Team Oxiti
+This final crew seems to be short a member. 
+  Tier 3 first opponent: Goomzo
+  Tier 3 leader: Muncher
 
 
 7. CAR LIST (by car identifier number):
 
 1*: Sivic Si Coupe (2010) - The starter car. - Tier 1
-2*: Oxiti Increceba - Beat the crew battle mode to unlock! - Tier 4
+2*: Oxiti Increceba - Beat the crew battle mode to unlock! - Tier 3
 3: Beetle (2004) - Available Economy Car Mondays - Tier 1
 4: Golf GIT (2005) - Available FWD Fridays - Tier 1
 5: 458 Italy (2011) - Available Supercar Saturdays - Tier 3
 6: 'Vette ZR1 (2009) - Available Supercar Saturdays - Tier 3
 7: Dino 256 GT - Available Sunday Drive Sundays (Classic cars) - Tier 1
 8: CRX SIR (1991) - Available FWD Fridays - Tier 2
-9: McL F1 (1993) - Availiable Supercar Saturdays - Tier 3
+9: McL F1 (1993) - Available Supercar Saturdays - Tier 3 (RECCOMMENDED)
 10: Impala SS (1969) - Available Sunday Drive Sundays - Tier 1
-11: Viper (2013) - Avaliable Supercar Saturdays T3
-12: Javelin-AMS (1971) - Availiable 
+11: Viper (2013) - Available Supercar Saturdays - Tier 3 (RECCOMMENDED)
+12: Javelin-AMS (1971) - Available Sunday Drive Sundays - Tier 1 (RECCOMMENDED)
+13: Mazda RX-7 Type RS (1998) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+14: Audi RS 6 (2003) - Available AWD Wednesdays - Tier 2 (RECCOMMENDED)
 
-2021 Game by Oxiti8 8/26/2021
+
+8. DEVELOPER'S NOTES & TECHNICALITIES:
+
+ - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
+ - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, will work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83+ users will only be able to use the Sivic Si as a result.
+ - The cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
+ - Races take a couple seconds to start due to how slow the shade( command is at drawing. 
+
+
+8/30/2021 Game by Oxiti8
