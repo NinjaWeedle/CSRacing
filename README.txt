@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING
 
-CALCULATOR STREET RACING V0.7
+CALCULATOR STREET RACING V0.7.1
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -49,7 +49,7 @@ Racing controls: Press 2ND to rev your engine. The car accelerates automatically
 Upon selecting the "RACE" option in the main menu, you will be presented the event list that shows the different kinds of races you can enter.
 Each mode has its own rules:
  - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level. The higher the number you enter (recommended range is 10-40), the better the rewards.
- - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 50,000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
+ - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 5000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
  - Crew Battle: Take on the best drivers CSRacing has to offer. There are three crews to beat, with each crew having 3 members. Crews will only race you if you use a car from their respective tier, so you'll need to save up your Cr. to buy cars- but the rewards are worth it.
  - Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beating these races drops the price of creating a custom car. 
  - Link Battle: Go head-to-head with another CSRacing player!
@@ -109,8 +109,9 @@ This final crew seems to be short a member.
 10: Impala SS (1969) - Available Sunday Drive Sundays - Tier 1
 11: Viper (2013) - Available Supercar Saturdays - Tier 3 (RECCOMMENDED)
 12: Javelin-AMS (1971) - Available Sunday Drive Sundays - Tier 1 (RECCOMMENDED)
-13: Mazda RX-7 Type RS (1998) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
-14: Audi RS 6 (2003) - Available AWD Wednesdays - Tier 2 (RECCOMMENDED)
+13: RX-7 Type RS (1998) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+14: RS 6 (2003) - Available AWD Wednesdays - Tier 2 (RECCOMMENDED)
+15: GT500 (2010) - Available Tier TWOsdays - Tier 2
 
 
 8. DEVELOPER'S NOTES & TECHNICALITIES:
@@ -118,7 +119,16 @@ This final crew seems to be short a member.
  - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
  - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, will work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83+ users will only be able to use the Sivic Si as a result.
  - The cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
- - Races take a couple seconds to start due to how slow the shade( command is at drawing. 
+ - Races take a couple seconds to start due to how slow the Shade( command is at drawing.
+ - If you get ERR: UNDEFINED after the title screen, it's likely because you deleted Str1. To fix this, launch CSRGARAG.8xp and switch to any car.
 
 
-8/30/2021 Game by Oxiti8
+2021 Game by Oxiti8
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THIS SOFTWARE OR THE USE OR OTHER DEALINGS IN THIS
+SOFTWARE.

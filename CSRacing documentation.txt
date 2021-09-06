@@ -27,7 +27,7 @@ List CSR:
 17: AMC Javelin-AMX (1971) owned?
 18: Mazda RX-7 Type RS (1998) owned?
 19: Audi RS 6 (2003) owned?
-20:
+20: Shelby GT500 (2010) owned?
 21:
 22:
 23:
@@ -116,7 +116,7 @@ CAR LIST (by car identifier number):
 12: AMC Javelin-AMX (1971) - Available Sunday Drive Sundays T1
 13: Mazda RX-7 Type RS (1998) - Available Tuner Thursdays T2
 14: Audi RS 6 (2003) - Available AWD Wednesdays T2
-15:
+15: Shelby GT500 (2010) - Available Tier TWOsdays T2
 16:
 17:
 18:
