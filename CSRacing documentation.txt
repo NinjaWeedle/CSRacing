@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.7
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.8
 
 STRINGS USED:
 Str1: Car name
@@ -28,8 +28,8 @@ List CSR:
 18: Mazda RX-7 Type RS (1998) owned?
 19: Audi RS 6 (2003) owned?
 20: Shelby GT500 (2010) owned?
-21:
-22:
+21: Delorean DMC-12 (1981) owned?
+22: Nissan Skyline GT-R R33 V-Spec (1997) owned?
 23:
 24:
 25:
@@ -65,12 +65,16 @@ List CAR:
 
 List CBR:
 1: Launch speed for car challenge 1
-2: Accelleration level for car challenge 1
-1: Launch speed for car challenge 2
-2: Accelleration level for car challenge 2
+2: Launch speed for car challenge 2
 ...etc...this repeats until all 30 cars have their own challenges...
-59: Launch speed for car challenge 30
-60: Accelleration level for car challenge 30
+30: Launch speed for car challenge 30
+
+List CCR:
+1: Acceleration level for car challenge 1
+2: Acceleration level for car challenge 2
+...etc...this repeats until all 30 cars have their own challenges...
+30: Acceleration level for car challenge 30
+
 
 VARIABLES:
 A = temp var. 1
@@ -84,6 +88,7 @@ H = Reduction in speed gained in gears above first gear
 I = Multiplayer player identifier
 J = Opponent Acceleration level (Only affects Car Specific and Crew Battle)
 K = Key pressed
+L = Race Length
 O = Opponent Car position
 P = Player Car position
 R = RPM (x1000)
@@ -93,6 +98,7 @@ U = Upgrade status
 V = Top Speed
 W = Event type
 Z = Countdown
+(Theta) = Did the player win against a crew leader and if so which one (1 = tier 1 leader beaten, 2 = tier2 leader beaten)
 
 EVENT TYPES:
 Regulation races: W=1
@@ -104,7 +110,7 @@ Crew Battle: W=5
 CAR LIST (by car identifier number):
 1*: Honda Civic Si Coupe (8th Gen, 2010) T1
 2*: Oxiti Increceba (2016) [FANTASY] T4
-3: VW New Beetle (2004) - Available Monday T1
+3: VW New Beetle (2004) - Available Mondays T1
 4: VW Golf GTI (2005) - Available Front wheel drive Fridays T1
 5: Ferrari 458 Italia (2011) - Available Supercar Saturdays T3
 6: Chevrolet Corvette ZR1 (2009) - Available Supercar Saturdays T3
@@ -117,8 +123,8 @@ CAR LIST (by car identifier number):
 13: Mazda RX-7 Type RS (1998) - Available Tuner Thursdays T2
 14: Audi RS 6 (2003) - Available AWD Wednesdays T2
 15: Shelby GT500 (2010) - Available Tier TWOsdays T2
-16:
-17:
+16: Delorean DMC-12 (1981) - Available Mondays T1
+17: Nissan Skyline GT-R R33 V-Spec (1997) - Available Tuner Thursdays T2
 18:
 19:
 20:
