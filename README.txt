@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING
 
-CALCULATOR STREET RACING V0.8
+CALCULATOR STREET RACING V0.8.1
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -58,7 +58,7 @@ Each mode has its own rules:
 - Regulation: Any car with any upgrades can enter. After selecting this option, you'll be asked to enter a difficulty level, and after that, the track length.
 The difficulty level is the MPH the opponent will travel at: Entering a difficulty of 10 will have the opponent drive at a constant 10 MPH, a difficulty of 35 equates to 35 MPH, and so on and so forth.
 The higher the difficulty level, the better the rewards!
-After entering the difficulty, you'll be asked to specify the length of the road. A length of 1 is the standard length, 2 is double length, 3 is triple length, and 4 is quadruple length. The tracklength does not affect the Cr. earned for winning, but does slightly increase the payment for losing.
+After entering the difficulty, you'll be asked to specify the length of the road. A length of 1 is the standard length, 2 is double length, 3 is triple length, 4 is quadruple length, and 5 is quintuple length. The track length does not affect the Cr. earned for winning, but does slightly increase the payment for losing.
 
 - Ladder: Race your way through 25 increasingly challenging races! The Grand Prize is 5000 Cr. Beware though: If you lose a race, you'll be knocked down a spot on the ladder.
 
@@ -93,7 +93,7 @@ The third and final member of each crew is the crew leader- You'll have to beat 
 
 - Tier 1 - The Flames
 This crew is the first you'll face. They control the west side of town. Their cars may not be the fastest, but their knowledge of their rides makes them a force to be reckoned with.
-  Tier 1 first opponent: Ito - Drives a Beetle '04. Ito bought his car new, and has carefully maintained it in the 
+  Tier 1 first opponent: Ito - Drives a Beetle '04. Ito bought his car while it was brand new and has carefully maintained and tuned it ever since. 
   Tier 1 second opponent: Steve O - Drives an Impala SS. He was the one who gave this crew its name. He loves doing burnouts, but as a result has spent hundreds of dollars on tires…
   Tier 1 leader: Winnace - Drives a Javelin-AMS. Winnace spent months restoring his Javelin before forming The Flames- His dedication has seemingly paid off, as no challenger has managed to defeat him in a race since. He's grown somewhat complacent as a result…
 
@@ -102,7 +102,7 @@ This crew is the first you'll face. They control the west side of town. Their ca
 The leader of this crew, Kenido, runs a repair & tuning shop alongside his older brother Mayeo in the east side of town. Some of the modifications they put on their cars aren't exactly street legal.
 This crew loves to modify their cars. To show off the speed of their cars, the members of this crew race on a road double the length that The Flames do. You'll need to learn to time multiple gear changes right in order to win.
   Tier 2 first opponent: Ker - Drives a CRX SIR. Ker works as a detective. He joined The Tuners as part of an undercover operation to bust the local street racing scene (unbeknownst to Kenido). After realizing that this street racing could be a great tourist attraction for the financially struggling city, Ker managed to get a fairly long section of road legally sanctioned off for drag racing on the weekends. His job keeps him busy a lot, but his skill as a driver has kept him in the crew.
-  Tier 2 second opponent: Mayeo -
+  Tier 2 second opponent: Mayeo - Drives a Supra.
   Tier 2 leader: Kenido
 
 - Tier 3 - Team Oxiti
@@ -129,7 +129,14 @@ This final crew seems to be short a member. What isn't short is the quadruple le
 14: RS 6 (2003) - Available AWD Wednesdays - Tier 2 (RECCOMMENDED)
 15: GT500 (2010) - Available Tier TWOsdays - Tier 2
 16: DMC-12 (1981) - Available Economy Car Mondays - Tier 1
-17: GTR R33 V-Spec (1997) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+17: GTR R33 (1997) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+18: Muira P400 (1967)- Available Sunday Drive Sundays - Tier 2
+19: NSXR (1992) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+20: CLK55 AMS (2003) - Available Tier TWOsdays - Tier 2 (RECCOMMENDED)
+21: Coopa S (2003) - Available Economy Car Mondays - Tier 1 (RECCOMMENDED)
+22: 350Z (2003) - Available Tier TWOsdays - Tier 2
+23: WRX STI (2012) - Available AWD Wednesdays - Tier 2
+24: Supra (1998) - Available Tuner Thursdays - Tier 2
 
 
 8. DEVELOPER'S NOTES & TECHNICALITIES:
