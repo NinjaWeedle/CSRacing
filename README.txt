@@ -2,13 +2,13 @@
 |       /     |    |
 |       \__   |____|
 |          \  |    \
-|_____  ___/  |     \ACING
+|_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V0.8.1
+CALCULATOR STREET RACING V0.9
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
-Collect, Race and Upgrade 30 different cars, or create your very own car from the ground up. 
+Collect, Race and Upgrade 30 different cars, or create your very own car from the ground up and share it with the world. 
 Compete in 5 event types- Climb the rankings in officially sanctioned Ladder races, assert your racing prowess against CSR's best racers in the challenging Crew Battle mode,
 challenge a friend in the 2-player action of Link Battle mode, demonstrate true mastery of your car in Car Specific races, or just make some quick cash in Regulation races.
 The game's shell compatible, too. Can you conquer the drag strip?
@@ -25,7 +25,8 @@ Table of contents:
 6: The 3 Crews
 7: Car List
 8: Developer's Notes & Technicalities
-9: Credits and License
+9: A short guide to CSRacing jargon
+10: Credits and License
 _________________________________________________________
 
 1. HOW TO INSTALL:
@@ -37,7 +38,7 @@ Send CSRACING.8xp and CSRGARAG.8xp to RAM. (Or send CSRACING.8xp to archive if u
 
 Navigating the main menu is simple - press one of the top five buttons (Y=, WINDOW, ZOOM, TRACE, or GRAPH) to select an option.
  - Press GRAPH to select "RACE" and access the event list.
- - Press TRACE to select the "TUNE" option and enter the upgrade shop.
+ - Press TRACE to select the "TUNE" option and enter the upgrade shop. The upgrade shop allows you purchase performance parts to make your car faster.
  - Press WINDOW or ZOOM to select the "CSR GARAGE" option and open CSR Garage. (Refer to section 4 for more details on CSR Garage)
  - Press Y= to select the "QUIT" option and quit the game.
 
@@ -64,26 +65,33 @@ After entering the difficulty, you'll be asked to specify the length of the road
 
 - Crew Battle: Take on the best drivers CSRacing has to offer. There are three crews to beat, with each crew having 3 members. Crews will only race you if you use a car from their respective tier, so you'll need to save up your Cr. to buy cars- but the rewards are worth it. (For more info, see section 6)
 
-- Car Specific: A true test of car mastery. You'll need to own all 30 cars in this game to complete this mode. Beating these races drops the price of creating a custom car. 
+- Car Specific: A true test of car mastery. There is 1 race for each of the 30 cars- you need the car with the same CIN (Car Identifier Number) as the race number to be allowed entry- race #1 requires car #1 (Sivic Si), race #2 requires car #2 (Oxiti Increceba), and so on and so forth for all 30 races. You'll need to own all 30 cars the game in order to complete this mode. (Refer to section 7 to see cars listed by their CIN.)
+   -- Beating a race in Car Specific mode will drop the price of creating a custom car by 3000 Credits per race, and beating all 30 races drops the price of car creation to 10000 Cr. Why? The guys over at R&D say seeing all these cars race helps lower development costs.
 
 - Link Battle: Go head-to-head with another CSRacing player!
 
 
 4. CSR GARAGE
 
-Upon starting CSR Garage, you have two options to choose from:
- - Change Car: Self explanatory. Selecting this option lets you swap your car with others you own.
+Upon starting CSR Garage, you have three options to choose from:
+ - Change Car: Self explanatory. Selecting this option lets you swap to another car you own. 
  - Car Dealer: Buy cars here. 4 cars are available for purchase each day, with a total of 28 cars available for purchase. 
-   - Once you purchase a car, you can get in it from the Change Car menu.
+   -- If you're looking to buy a specific car, check the Car List (section 8) to find out which day of the week it is availiable for purchase.
+   -- Once you purchase a car, you can get in it from the Change Car menu.
+ - Create Car: Once you progress past a certain point in the game, you can come here to create a new car from scratch. 
+   -- The initial cost of creating a car is 100000 Cr. per car- You can lower development costs substantially by winning Car Specific races as previously mentioned in section 3.
+   -- Cars you create will dissappear once you switch to another car- If you want to save your creations, back up the list named "CAR" and String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
+   -- To load or restore a custom car, just send the files that contain the custom car data (namely CAR.8xl and Str1.8xs) to your calculator. They will appear in game when you next launch CSRACING. 
 
 
 5. TIPS & TRICKS
 
  - Good launches will earn you an extra 5 Cr, and Perfect launches will net you 10 extra Cr.
  - The key to the best shifts is to shift up the same frame the max speed in the current gear is reached- nailing the timing will let you constantly accelerate.
+ - Upgrades scale in cost based on the tier of the car you're upgrading- Tier 1 cars are the cheapest cars to upgrade, and Tier 3 cars are the most expensive to upgrade due to their exotic nature.
  - Upgrades offer a noticeable performance boost, but buying faster cars is eventually necessary to stay competitive.
- - Regulation races are a great way to earn Cr. - Just make sure to keep the difficulty at a level you can handle.
- - There are (planned to be, the game is not done yet) 30 cars in total- can you collect them all?
+ - Regulation races are a great way to earn Cr. - Just make sure to keep the difficulty at a level your car can handle.
+ - There are 10 Tier 1 cars, 14 Tier 2 cars, and 6 Tier 3 cars making for a total of 30 cars- can you collect them all?
 
 
 6. THE THREE CREWS
@@ -106,7 +114,7 @@ This crew loves to modify their cars. To show off the speed of their cars, the m
   Tier 2 leader: Kenido
 
 - Tier 3 - Team Oxiti
-This final crew seems to be short a member. What isn't short is the quadruple length, dedicated drag strip this crew races on- Speeds in excess of 100 MPH are inevitable!
+This final crew appears to be short a member. What isn't short is the quadruple length, dedicated drag strip this crew races on- Speeds in excess of 100 MPH are inevitable!
   Tier 3 first opponent: Goomzo
   Tier 3 leader: Muncher
 
@@ -136,19 +144,38 @@ This final crew seems to be short a member. What isn't short is the quadruple le
 21: Coopa S (2003) - Available Economy Car Mondays - Tier 1 (RECCOMMENDED)
 22: 350Z (2003) - Available Tier TWOsdays - Tier 2
 23: WRX STI (2012) - Available AWD Wednesdays - Tier 2
-24: Supra (1998) - Available Tuner Thursdays - Tier 2
+24: Supra (1998) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
+25: Sentra SER (2007) - Available Economy car Mondays - Tier 1 (RECCOMMENDED)
+26: Ford Focus RS (2009) - Available FWD Fridays - Tier 2 (RECCOMMENDED)
+27: EVO X (2012) - Available AWD Wednesdays - Tier 2
+28: Neon SRT4 (2005) - Available FWD Fridays - Tier 1
+29: GT-R R34 (2002) - Available Tier TWOsdays - Tier 2 (RECCOMMENDED)
+30: Reventon (2008) - Available AWD Wednesdays - Tier 3 - The most expensive car in the game. You'll need 1,000,000 Cr. to purchase this!
+
+*Cars with "*" next to their number cannot be purchased at the Car Dealer.
 
 
 8. DEVELOPER'S NOTES & TECHNICALITIES:
 
  - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
- - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, will work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83+ users will only be able to use the Sivic Si as a result.
+ - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, should work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83 Plus users will only be able to use the Sivic Si as a result.
  - The cars in this game have the same gear ratios and top speeds of their real world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
+ - Cars with electronically limited top speeds in the real world (i.e. 155 MPH) have their limiters removed here.
  - Races take a couple seconds to start due to how slow the Shade( command is at drawing.
  - If you get ERR: UNDEFINED after the title screen, it's likely because you deleted Str1. To fix this, launch CSRGARAG.8xp and switch to any car.
+ - If List CAR is missing for whatever reason when launching CSRACING, the game will load the Sivic Si. Please note that this will reset that car's upgrade level to stock. If you lose List CAR and don't want your Sivic Si's upgrades reset, launch CSRGARAG instead of CSRACING and switch to any car.
 
 
-9. CREDITS AND LICENSE
+9. A SHORT GUIDE TO CSRACING JARGON
+
+ - CSRacing = Calculator Street Racing
+ - Cr. = Credits, the currency of CSRacing
+ - CIN = Car Identifier Number. The Car Identifier number refers to the general order that cars were added to the game in.
+ - Oxiti = A fictional car brand. 
+ - Tune = refers to the act of tuning a car, in this case for performance.
+ - Home = the homescreen of the game.
+
+10. CREDITS AND LICENSE
 
 Game created by Oxiti8 in 2021.
 

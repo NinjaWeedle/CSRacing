@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.8.1
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V0.9
 
 STRINGS USED:
 Str1: Car name
@@ -37,15 +37,15 @@ List CSR:
 27: Nissan Fairlady Z (2003) owned?
 28: Subaru Impreza WRX STI (2012) owned?
 29: Toyota Supra RZ (1998) owned?
-30:
-31:
-32:
-33:
-34:
-35:
+30: Nissan Sentra SER (2007) owned?
+31: Ford Focus RS (2009) owned?
+32: Mitsubishi EVO X (2012) owned?
+33: Dodge Neon SRT4 (2005) owned?
+34: Nissan Skyline GT-R R34 (2002) owned?
+35: Reventon (2008) owned?
 36: Custom Car
 
-List CAR:
+(ALL CARS, CUSTOM OR OTHERWISE, FOLLOW THIS FORMAT) List CAR:
 1: Car Identifier Number
 2: Max RPM
 3: Best launch RPM
@@ -63,13 +63,13 @@ List CAR:
 15: Car color (AFFECTS CE ONLY) (10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray)
 16: Car Tier
 
-List CBR:
+List L1:
 1: Launch speed for car challenge 1
 2: Launch speed for car challenge 2
 ...etc...this repeats until all 30 cars have their own challenges...
 30: Launch speed for car challenge 30
 
-List CCR:
+List L3:
 1: Acceleration level for car challenge 1
 2: Acceleration level for car challenge 2
 ...etc...this repeats until all 30 cars have their own challenges...
@@ -132,12 +132,12 @@ CAR LIST (by car identifier number):
 22: Nissan Fairlady Z (2003) - Available Tier TWOsdays T2
 23: Subaru Impreza WRX STI (2012) - Available AWD Wednesdays T2
 24: Toyota Supra RZ (1998) - Available Tuner Thursdays T2
-25:
-26:
-27:
-28:
-29:
-30: 
+25: Nissan Sentra SE-R (2007) - Available Economy car Mondays T1
+26: Ford Focus RS (2009) - Available FWD Fridays T2
+27: Mitsubishi EVO X (2012) - Available AWD Wednesdays T2
+28: Dodge Neon SRT4 (2005) - Available FWD Fridays T2
+29: Nissan Skyline GT-R R34 (2002) - Available Tier TWOsdays T2
+30: Lamborghini Reventon (2008) - Available AWD Wednesdays - T3 
 31: Identifies custom cars
 *Not purchasable at dealer
 
@@ -152,7 +152,7 @@ This crew is the first you'll meet.
 - Tier 2 - The Tuners
 This crew loves to modify their cars.
   Tier 2 first opponent: Ker - Drives a CRX SIR
-  Tier 2 second opponent: Mayeo
+  Tier 2 second opponent: Mayeo - Drives a Supra
   Tier 2 leader: Kenido
 
 - Tier 3 - Team Oxiti
