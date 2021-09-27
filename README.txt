@@ -4,11 +4,11 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V1.0
+CALCULATOR STREET RACING DELUXE
 
-A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
+A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus CE and TI-84 Plus C Silver Edition.
 
-The ultimate drag racing game for the 84+ has arrived! Collect, Race and Upgrade 30 different cars, or create your own car from the ground up and share it with the world. 
+The ultimate drag racing game is now in color! Collect, Race and Upgrade 30 different cars, or create your own car from the ground up and share it with the world. 
 Compete in 5 different event types- Climb the rankings in officially sanctioned Ladder races, assert your racing prowess over CSR's best racers in the challenging Crew Battle mode, 
 demonstrate true mastery of your car in Car Specific races, just make some quick cash in Regulation races, or, once you've completed all the other modes, experience the freedom of Custom Spec races. 
 The game's shell compatible, too. Can you conquer the drag strip?
