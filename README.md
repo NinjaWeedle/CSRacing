@@ -1,5 +1,5 @@
-# CSRacing
-Calculator Street Racing, a drag racing game for the TI-84+ graphing calculator.
+# CSRacing Deluxe
+Calculator Street Racing Deluxe, a drag racing game for the TI-84 Plus CE graphing calculator.
 
 Regulation, Ladder, Car Specific races and Crew Battles are currently playable. 
 
