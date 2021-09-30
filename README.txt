@@ -13,7 +13,7 @@ Compete in 5 different event types- Climb the rankings in officially sanctioned 
 demonstrate true mastery of your car in Car Specific races, just make some quick cash in Regulation races, or, once you've completed all the other modes, experience the freedom of Custom Spec races. 
 The game's shell compatible, too. Can you conquer the drag strip?
 
-Github: https://github.com/NinjaWeedle/CSRacing - If there's a new version of CSRacing, you'll find it here first.
+Github: https://github.com/NinjaWeedle/CSRacing/tree/CE - If there's a new version of CSRacing Deluxe, you'll find it here first.
 Cemetech topic: https://www.cemetech.net/forum/viewtopic.php?t=17903 - Check out this forum topic for the latest updates on CSRacing!
 _________________________________________________________
 Table of contents:
@@ -41,7 +41,7 @@ _________________________________________________________
 
 1. HOW TO INSTALL:
 
-Send CSRACING.8xp and CSRGARAG.8xp to RAM. (Or send CSRACING.8xp to archive if using a shell like MirageOS or Doors CS7)
+Send CSRACING.8xp and CSRGARAG.8xp to RAM. 
 
 
 2. HOW TO PLAY:
@@ -203,16 +203,12 @@ If you want to cancel car creation at any point during the process, press ON and
 
 9. DEVELOPER'S NOTES & TECHNICALITIES:
 
- - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
- - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, should work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83 Plus users will only be able to use the Sivic Si as a result.
- - The cars in this game have the same gear ratios and top speeds of their real-world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
+ - The cars in this game have the same gear ratios and top speeds of their real-world counterparts (The names are a bit different here due to copyright)
  - Cars with electronically limited top speeds in the real world (i.e. 155 MPH) have their limiters removed here.
  - Races take a couple seconds to start due to how slow the Shade( command is at drawing.
  - If you get ERR: UNDEFINED after the title screen, it's likely because you deleted Str1. To fix this, launch CSRGARAG.8xp and switch to any car.
  - If List CAR is missing for whatever reason when launching CSRACING, the game will load the Sivic Si. Please note that this will reset that car's upgrade level to stock. If you lose List CAR and don't want your Sivic Si's upgrades reset, launch CSRGARAG instead of CSRACING and switch to any car.
- - A contrast level of highest 5 is recommended for this game. Please note that the contrast level may need to be higher or lower depending on your screen.
  - Almost all car data was pulled from FM4 and/or FH1. The three exceptions to this are as follows: The RX-7 Type RS, whose data was collected from GT2, the Sivic Si (misc. sources), and the Oxiti Increceba (created for CSRacing).
- - The file size for CSRACING.8xp and CSRGARAG.8xp are the exact same: 7258 bytes.
 
 
 10. A SHORT GUIDE TO CSRACING JARGON
@@ -239,7 +235,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THIS SOFTWARE OR THE USE OR OTHER DEALINGS IN THIS
 SOFTWARE.
 
-Redistribution of this software is welcome, but this document MUST be accompany it.
+Redistribution of this software is welcome, but this document MUST accompany it.
 
 Email: weedleninja88@gmail.com
 Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.html
