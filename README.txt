@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V1.0
+CALCULATOR STREET RACING V1.1
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -212,7 +212,6 @@ If you want to cancel car creation at any point during the process, press ON and
  - If List CAR is missing for whatever reason when launching CSRACING, the game will load the Sivic Si. Please note that this will reset that car's upgrade level to stock. If you lose List CAR and don't want your Sivic Si's upgrades reset, launch CSRGARAG instead of CSRACING and switch to any car.
  - A contrast level of highest 5 is recommended for this game. Please note that the contrast level may need to be higher or lower depending on your screen.
  - Almost all car data was pulled from FM4 and/or FH1. The three exceptions to this are as follows: The RX-7 Type RS, whose data was collected from GT2, the Sivic Si (misc. sources), and the Oxiti Increceba (created for CSRacing).
- - The file size for CSRACING.8xp and CSRGARAG.8xp are the exact same: 7258 bytes.
 
 
 10. A SHORT GUIDE TO CSRACING JARGON
@@ -239,7 +238,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THIS SOFTWARE OR THE USE OR OTHER DEALINGS IN THIS
 SOFTWARE.
 
-Redistribution of this software is welcome, but this document MUST be accompany it.
+Redistribution of this software is welcome, but this document MUST accompany it.
 
 Email: weedleninja88@gmail.com
 Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.html
