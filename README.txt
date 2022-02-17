@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V1.1
+CALCULATOR STREET RACING V1.2
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -34,6 +34,7 @@ III. EXTRA INFORMATION
  9: Developer's Notes & Technicalities
  10: A short guide to CSRacing jargon
  11: Credits and License
+ 12: Patch Notes
 _________________________________________________________
 
 < I. GETTING STARTED >
@@ -90,6 +91,10 @@ Upon starting CSR Garage, you have three options to choose from:
    -- If you're looking to buy a specific car, check the Car List (section 7) to find out which day of the week it is available for purchase.
    -- Once you purchase a car, you can get in it from the Change Car menu.
 
+ - Paintshop: Lets you paint your car by typing one of the numbers listed below. 
+   -- Color guide: 1=Blue, 2=Red, 3=Black, 4=Magenta, 5=Green, 6=Orange, 7=Brown, 8=Navy, 9=LtBlue, 10=Yellow, 11=White, 12=LtGray, 13=MedGray, 14=Gray, and 15=DarkGray
+   -- The color won't be visible on a monochrome calculator, but if a CE version of SSRacing comes out, you will be able to transfer your car to the CE and see the color.
+
  - Create Car: Once you progress past a certain point in the game, you can come here to create a new car from scratch. 
    -- The initial cost of creating a car is 100000 Cr. per car- You can lower development costs substantially by winning Car Specific races as previously mentioned in section 3.
    -- Cars you create will dissappear once you switch to another car- If you want to save your creations, back up the list named "CAR" and String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
@@ -102,7 +107,7 @@ Upon starting CSR Garage, you have three options to choose from:
 
 5. TIPS & TRICKS
 
- - Good launches will earn you an extra 5 Cr, and Perfect launches will net you 10 extra Cr.
+ - Good launches will earn you an extra 5 Cr, and Perfect launches will net you 13 extra Cr.
  - The key to the best shifts is to shift up the same frame the max speed in the current gear is reached- nailing the timing will let you constantly accelerate.
  - Upgrades scale in cost based on the tier of the car you're upgrading- Tier 1 cars are the cheapest cars to upgrade, and Tier 3 cars are the most expensive to upgrade due to their exotic nature.
  - Upgrades offer a noticeable performance boost, but buying faster cars is eventually necessary to stay competitive.
@@ -120,7 +125,6 @@ This crew is the first you'll face. They control the west side of town. Their ca
   Tier 1 first opponent: Ito - Drives a Beetle. Ito bought his car while it was brand new and has carefully maintained and tuned it ever since. 
   Tier 1 second opponent: Steve O - Drives an Impala SS. He was the one who gave this crew its name. He loves doing burnouts, but as a result has spent hundreds of dollars on tires…
   Tier 1 leader: Winnace - Drives a Javelin-AMS. Winnace spent months restoring his Javelin before forming The Flames- His dedication has seemingly paid off, as no challenger has managed to defeat him in a race since. He's grown somewhat complacent as a result…
-
 
 - Tier 2 - The Tuners
 The leader of this crew, Kenido, runs CSR Garage alongside his older brother Mayeo in the east side of town. Some of the modifications they put on their cars aren't exactly street legal.
@@ -242,3 +246,12 @@ Redistribution of this software is welcome, but this document MUST accompany it.
 
 Email: weedleninja88@gmail.com
 Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.html
+
+
+12. PATCH NOTES
+
+V1.2:
+Graphical updates to CSR Garage
+Made CSRacing.8xp 2 bytes smaller than in V1.1
+Added the Paintshop.
+Increased the Cr. bonus for perfect starts from 10 Cr. to 13.

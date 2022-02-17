@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.1
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.2
 
 STRINGS USED:
 Str1: Car name
@@ -89,6 +89,7 @@ K = Key pressed
 L = Race Length
 O = Opponent Car position
 P = Player Car position
+(CE ONLY) Q = player car color
 R = RPM (x1000)
 S = Speed
 T = Race time
