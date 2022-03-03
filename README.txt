@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V1.2
+CALCULATOR STREET RACING V1.3
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -80,6 +80,7 @@ After entering the difficulty, you'll be asked to specify the length of the road
    -- Beating a race in Car Specific mode will drop the price of creating a custom car by 3000 Credits per race, and beating all 30 races drops the price of car creation to 10000 Cr. Why? The guys over at R&D say seeing all these cars race helps lower development costs.
    -- After beating all 30 Car Specific races, opening up Car Specific mode again will bring you to Custom Spec mode. Press enter, and a difficulty selection screen not unlike that of regulation races- except instead of choosing the length, you can now set the launch speed (LAUNCH SPD?) and acceleration level (ACCEL. LV?) exclusive to the more advanced AI that appear in Crew Battles and Car Specific races. The launch speed is the MPH the opponent car starts at, and the acceleration level is the amount of MPH the opponent car gains per frame. Any car can enter these races!
 
+- Return to Home: This isn't a game mode. Selecting this option will send you back to the main menu.
 
 4. CSR GARAGE
 
@@ -93,11 +94,11 @@ Upon starting CSR Garage, you have three options to choose from:
 
  - Paintshop: Lets you paint your car by typing one of the numbers listed below. 
    -- Color guide: 1=Blue, 2=Red, 3=Black, 4=Magenta, 5=Green, 6=Orange, 7=Brown, 8=Navy, 9=LtBlue, 10=Yellow, 11=White, 12=LtGray, 13=MedGray, 14=Gray, and 15=DarkGray
-   -- The color won't be visible on a monochrome calculator, but if a CE version of SSRacing comes out, you will be able to transfer your car to the CE and see the color.
+   -- The color won't be visible on a monochrome calculator, but if a TI-84+ CE version of SSRacing comes out, you will be able to transfer your car to the CE and see the color.
 
  - Create Car: Once you progress past a certain point in the game, you can come here to create a new car from scratch. 
    -- The initial cost of creating a car is 100000 Cr. per car- You can lower development costs substantially by winning Car Specific races as previously mentioned in section 3.
-   -- Cars you create will dissappear once you switch to another car- If you want to save your creations, back up the list named "CAR" and String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
+   -- Cars you create will be overwritten once you switch to another car- If you want to save your creations, back up the list named "CAR" and String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
    -- To load or restore a custom car, just send the files that contain the custom car data (namely CAR.8xl and Str1.8xs) to your calculator. They will appear in game when you next launch CSRACING. 
    -- Refer to section 8 for more details on car creation.
 
@@ -193,7 +194,7 @@ This section explains each step involved in custom car creation. Refer to this w
 11(G6): Max MPH allowed in gear 6 - The top speed allowed in gear 6. If there is no 6th gear, you should enter 0 for the smallest filesize but any number will do.
 12(ACCEL. LVL): Acceleration level (maximum increase in pixels moved per cycle) - how many MPH this car gains per frame. 0.1-1.4 is typical of Tier 1 cars, 1.6-2.4 is typical of Tier 2 cars, and 2.9-3.3 is typical of Tier 3 cars. Try to keep this number below 8 though or things WILL BREAK
 13(RPM LOSS): Amount of rpm (x1000) lost per cycle while revving - This one's tricky but very important. I recommend a value of 0.1 for slow revving cars, 0.2 for most cars, and 0.25 for fast revving cars. REALLY fast revving cars should use 0.5. anything higher will have unexpected results.
-14(SPD. LOSS): Reduction in speed gained in per gear (1.1 - ([THIS VALUE]* Current Gear) * Acceleration level) - This simulates a steady loss in acceleration as the car gets into higher gears. Setting this too high will result in the car going backwards in higher gears. A safe value is 0.1, but the Acceleration level and number of gears plays into this as well. A higher acceleration level means this stat can be higher- For example, cars with an acceleration level of 2 should keep this value at 0.18 or lower to not go backwards in 6th gear.
+14(SPD. LOSS): Reduction in speed gained in per gear (1.1 - ([THIS VALUE] * Current Gear) * Acceleration level) - This simulates a steady loss in acceleration as the car gets into higher gears. Setting this too high will result in the car going backwards in higher gears. A safe value is 0.1, but the Acceleration level and number of gears plays into this as well. A higher acceleration level means this stat can be higher- For example, cars with an acceleration level of 2 should keep this value at 0.18 or lower to not go backwards in 6th gear.
 15(COLOR): Car color (AFFECTS CE ONLY) Same as the color values on the CE- 10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray. If you enter an invalid number, the color will be set to Black. Names won't work so don't try them.
 (The car tier for custom cars is automatically set to tier 4.)
 
@@ -250,8 +251,4 @@ Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.h
 
 12. PATCH NOTES
 
-V1.2:
-Graphical updates to CSR Garage
-Made CSRacing.8xp 2 bytes smaller than in V1.1
-Added the Paintshop.
-Increased the Cr. bonus for perfect starts from 10 Cr. to 13.
+V1.3:
