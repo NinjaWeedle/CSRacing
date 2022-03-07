@@ -55,6 +55,12 @@ Navigating the main menu is simple - press one of the top five buttons (Y=, WIND
 
 Racing controls: 
 
+YOU-----------------
+#                 ▓▓
+==================▓▓
+#                 ▓▓
+CPU-----------------
+
 Press 2ND to start your engine and begin the countdown to launch. To rev quickly, repeatedly press 2ND. To rev slowly, press ALPHA (Or any key that isn't 2ND or ON). 
  - Pay attention to the text at the bottom of the screen- it'll tell you if your RPM is above, below, or at the number needed for the fastest launch.
 
@@ -84,7 +90,16 @@ After entering the difficulty, you'll be asked to specify the length of the road
 
 4. CSR GARAGE
 
-Upon starting CSR Garage, you have three options to choose from:
+Upon starting CSR Garage, you have five options to choose from:
+
+    CSR Garage
+------------------
+> CAR DEALER
+  SWITCH CARS
+  PAINTSHOP
+  CREATE CAR
+  Return
+
 
  - Change Car: Self explanatory. Selecting this option lets you swap to another car you own. 
 
@@ -93,8 +108,8 @@ Upon starting CSR Garage, you have three options to choose from:
    -- Once you purchase a car, you can get in it from the Change Car menu.
 
  - Paintshop: Lets you paint your car by typing one of the numbers listed below. 
-   -- Color guide: 1=Blue, 2=Red, 3=Black, 4=Magenta, 5=Green, 6=Orange, 7=Brown, 8=Navy, 9=LtBlue, 10=Yellow, 11=White, 12=LtGray, 13=MedGray, 14=Gray, and 15=DarkGray
-   -- The color won't be visible on a monochrome calculator, but if a TI-84+ CE version of SSRacing comes out, you will be able to transfer your car to the CE and see the color.
+   -- Color guide: 10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray
+   -- The color won't be visible on a monochrome calculator, but if a TI-84+ CE/CSE version of CSRacing comes out, you will be able to transfer your car to those calculators and see the color.
 
  - Create Car: Once you progress past a certain point in the game, you can come here to create a new car from scratch. 
    -- The initial cost of creating a car is 100000 Cr. per car- You can lower development costs substantially by winning Car Specific races as previously mentioned in section 3.
@@ -102,6 +117,7 @@ Upon starting CSR Garage, you have three options to choose from:
    -- To load or restore a custom car, just send the files that contain the custom car data (namely CAR.8xl and Str1.8xs) to your calculator. They will appear in game when you next launch CSRACING. 
    -- Refer to section 8 for more details on car creation.
 
+ - Return: Returns to the main menu of CSRacing.
 
 < II. CSRACING IN DEPTH >
 
@@ -167,7 +183,7 @@ This final crew appears to be short a member. What isn't short is the quadruple 
 22: 350Z (2003) - Available Tier TWOsdays - Tier 2
 23: WRX STI (2012) - Available AWD Wednesdays - Tier 2
 24: Supra (1998) - Available Tuner Thursdays - Tier 2 (RECCOMMENDED)
-25: Sentra SER (2007) - Available Economy car Mondays - Tier 1 (RECCOMMENDED)
+25: Sentra SER (2007) - Available Economy Car Mondays - Tier 1 (RECCOMMENDED)
 26: Focus RS (2009) - Available FWD Fridays - Tier 2 (RECCOMMENDED)
 27: EVO X (2012) - Available AWD Wednesdays - Tier 2
 28: Neon SRT4 (2005) - Available FWD Fridays - Tier 1
@@ -196,7 +212,7 @@ This section explains each step involved in custom car creation. Refer to this w
 13(RPM LOSS): Amount of rpm (x1000) lost per cycle while revving - This one's tricky but very important. I recommend a value of 0.1 for slow revving cars, 0.2 for most cars, and 0.25 for fast revving cars. REALLY fast revving cars should use 0.5. anything higher will have unexpected results.
 14(SPD. LOSS): Reduction in speed gained in per gear (1.1 - ([THIS VALUE] * Current Gear) * Acceleration level) - This simulates a steady loss in acceleration as the car gets into higher gears. Setting this too high will result in the car going backwards in higher gears. A safe value is 0.1, but the Acceleration level and number of gears plays into this as well. A higher acceleration level means this stat can be higher- For example, cars with an acceleration level of 2 should keep this value at 0.18 or lower to not go backwards in 6th gear.
 15(COLOR): Car color (AFFECTS CE ONLY) Same as the color values on the CE- 10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray. If you enter an invalid number, the color will be set to Black. Names won't work so don't try them.
-(The car tier for custom cars is automatically set to tier 4.)
+(The car tier for custom cars is automatically set to tier 4, and as such they cannot be used in the Crew Battle mode.)
 
 And your car is complete! You'll probably want to backup your creation to a PC for later use, so make sure to back up List CAR and Str1 before switching to another car.
 
@@ -214,7 +230,7 @@ If you want to cancel car creation at any point during the process, press ON and
  - Cars with electronically limited top speeds in the real world (i.e. 155 MPH) have their limiters removed here.
  - Races take a couple seconds to start due to how slow the Shade( command is at drawing.
  - If you get ERR: UNDEFINED after the title screen, it's likely because you deleted Str1. To fix this, launch CSRGARAG.8xp and switch to any car.
- - If List CAR is missing for whatever reason when launching CSRACING, the game will load the Sivic Si. Please note that this will reset that car's upgrade level to stock. If you lose List CAR and don't want your Sivic Si's upgrades reset, launch CSRGARAG instead of CSRACING and switch to any car.
+ - If List CAR is missing for whatever reason when launching CSRACING, the game will load the Sivic Si. Please note that this will reset that car's upgrade level to stock. If you lose List CAR and don't want your Sivic Si's upgrades to be reset, launch CSRGARAG instead of CSRACING and switch to any car.
  - A contrast level of highest 5 is recommended for this game. Please note that the contrast level may need to be higher or lower depending on your screen.
  - Almost all car data was pulled from FM4 and/or FH1. The three exceptions to this are as follows: The RX-7 Type RS, whose data was collected from GT2, the Sivic Si (misc. sources), and the Oxiti Increceba (created for CSRacing).
 
@@ -252,3 +268,8 @@ Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.h
 12. PATCH NOTES
 
 V1.3:
+
+Revamped the way you return from menus in CSR Garage.
+Fixed a display bug when the "Create Car" option was unlocked.
+Fixed an issue where the SRT4 was displayed as a Tier 1 car instead of a Tier 2 car in the car dealer.
+Made the event completion stats on the Main Menu display regardless of whether or not their respective events have been attempted before.
