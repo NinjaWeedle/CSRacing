@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING V1.3
+CALCULATOR STREET RACING V1.3.1
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus.
 
@@ -109,11 +109,11 @@ Upon starting CSR Garage, you have five options to choose from:
 
  - Paintshop: Lets you paint your car by typing one of the numbers listed below. 
    -- Color guide: 10=Blue, 11=Red, 12=Black, 13=Magenta, 14=Green, 15=Orange, 16=Brown, 17=Navy, 18=LtBlue, 19=Yellow, 20=White, 21=LtGray, 22=MedGray, 23=Gray, and 24=DarkGray
-   -- The color won't be visible on a monochrome calculator, but if a TI-84+ CE/CSE version of CSRacing comes out, you will be able to transfer your car to those calculators and see the color.
+   -- The color won't be visible on a monochrome calculator, but it is visible in CSRacing DX for the TI-84+ CSE and TI-84+ CE. If you want to see the color, send your cars to a color calculator with CSRacing DX.
 
  - Create Car: Once you progress past a certain point in the game, you can come here to create a new car from scratch. 
    -- The initial cost of creating a car is 100000 Cr. per car- You can lower development costs substantially by winning Car Specific races as previously mentioned in section 3.
-   -- Cars you create will be overwritten once you switch to another car- If you want to save your creations, back up the list named "CAR" and String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
+   -- Cars you create will be overwritten once you switch to another car- If you want to save your creations, back up the list named "CAR" and the String Variable Str1 to your computer. Once you've backed them up, you can also share your custom cars with your friends by sending them these variables.
    -- To load or restore a custom car, just send the files that contain the custom car data (namely CAR.8xl and Str1.8xs) to your calculator. They will appear in game when you next launch CSRACING. 
    -- Refer to section 8 for more details on car creation.
 
@@ -226,7 +226,7 @@ If you want to cancel car creation at any point during the process, press ON and
 
  - This game was developed on a TI-84 Plus with a non-mathprint OS installed. Users with OS version 2.53MP or higher should enable CLASSIC mode for the best speed & compatibility.
  - While CSR Garage can only be accessed on a TI-84 Plus, the base game, CSRACING.8xp, should work on a TI-83 Plus as it does not use TI-OS time. Please note that TI-83 Plus users will only be able to use the Sivic Si as a result.
- - The cars in this game have the same gear ratios and top speeds of their real-world counterparts (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
+ - The cars in this game are intended to have the same gear ratios and top speeds as their real-world counterparts- but real world performance may differ. (The names are a bit different here due to copyright, but I'm sure you can figure out what cars they represent via the Developer's Documentation in the extras folder.)
  - Cars with electronically limited top speeds in the real world (i.e. 155 MPH) have their limiters removed here.
  - Races take a couple seconds to start due to how slow the Shade( command is at drawing.
  - If you get ERR: UNDEFINED after the title screen, it's likely because you deleted Str1. To fix this, launch CSRGARAG.8xp and switch to any car.
@@ -267,9 +267,6 @@ Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.h
 
 12. PATCH NOTES
 
-V1.3:
+V1.3.1:
 
-Revamped the way you return from menus in CSR Garage.
-Fixed a display bug when the "Create Car" option was unlocked.
-Fixed an issue where the SRT4 was displayed as a Tier 1 car instead of a Tier 2 car in the car dealer.
-Made the event completion stats on the Main Menu display regardless of whether or not their respective events have been attempted before.
+Fixed an issue where the Paintshop would not work.

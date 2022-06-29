@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.2
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.3.1
 
 STRINGS USED:
 Str1: Car name
@@ -78,7 +78,7 @@ VARIABLES:
 A = temp var. 1
 B = temp var. 2
 C = temp var. 3
-D = Difficulty (affects opponent's speed directly in Regulation and Ladder races, just affects their launch speed in Car SPecific and Crew Battle)
+D = Difficulty (affects opponent's speed directly in Regulation and Ladder races, just affects their launch speed in Car Specific and Crew Battle)
 E = Rev loss rate per cycle
 F = Temp var. 4
 G = Gear
