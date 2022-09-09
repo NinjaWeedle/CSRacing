@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.0
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.1.1
 
 STRINGS USED:
 Str1: Car name
@@ -107,7 +107,7 @@ Crew Battle: W=5
 
 CAR LIST (by car identifier number):
 1*: Honda Civic Si Coupe (8th Gen, 2010) T1
-2*: Oxiti Increceba (2016) [FANTASY] T4
+2*: Oxiti Increceba (2016) [FANTASY] T3
 3: VW New Beetle (2004) - Available Mondays T1
 4: VW Golf GTI (2005) - Available Front wheel drive Fridays T1
 5: Ferrari 458 Italia (2011) - Available Supercar Saturdays T3

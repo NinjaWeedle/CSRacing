@@ -4,7 +4,7 @@
 |          \  |    \
 |_____  ___/  |     \ACING - The ultimate drag race.
 
-CALCULATOR STREET RACING DELUXE V1.0
+CALCULATOR STREET RACING DELUXE V1.1.1
 
 A drag racing game written by Oxiti8 in pure TI-BASIC for the TI-84 Plus C Silver Edition and TI-84 Plus CE.
 
@@ -34,6 +34,7 @@ III. EXTRA INFORMATION
  9: Developer's Notes & Technicalities
  10: A short guide to CSRacing jargon
  11: Credits and License
+ 12: Patch notes
 _________________________________________________________
 
 < I. GETTING STARTED >
@@ -259,3 +260,16 @@ Redistribution of this software is welcome, but this document MUST accompany it.
 
 Email: weedleninja88@gmail.com
 Ticalc.org author profile: https://ticalc.org/archives/files/authors/117/11708.html
+
+12. PATCH NOTES
+
+V1.1.1:
+- Optimization
+- Fixed a bug introduced in V1.1 with CSRGARAG
+- Added model year to the RX7 and RS6
+
+V1.1:
+ - Make road grey instead of white
+ - Optimizations
+ - New DCS8/Cesium icon
+ - Color changes to lines used in pre-race screens
