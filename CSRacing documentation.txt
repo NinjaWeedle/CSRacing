@@ -1,4 +1,4 @@
-Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.1.1
+Calculator Street Racing DEVELOPER'S DOCUMENTATION V1.1.2
 
 STRINGS USED:
 Str1: Car name
